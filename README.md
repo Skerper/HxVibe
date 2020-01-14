@@ -1,12 +1,20 @@
-==HxVibe==
+# HxVibe #
 
 This is probably the smallest extern in the world.
 
-===Usage===
-Import the package
+It exposes the haptic motor controls on the Xbox360 controller to Haxe. 
+
+## Compatibility ##
+
+Only works on Windows target.
+
+## Usage ##
+Import the package:
+
 `import com.skerper.hxvibe.HxVibe`
 
-Just tell it to vibrate
+Just tell it to vibrate:
+
 `HxVibe.vibrate(left_amount, right_amount, controller_index);`
 
 Left and right amounts are valid from 0x00 to 0xFF. Index is valid to however many controllers Xinput supports. 

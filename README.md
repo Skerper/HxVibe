@@ -2,6 +2,8 @@
 
 This is probably the smallest extern in the world.
 
+It exposes the haptic motor controls on the Xbox360 controller to Haxe. 
+
 ## Compatibility ##
 
 Only works on Windows target.
